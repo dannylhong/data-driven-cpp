@@ -1,0 +1,5 @@
+/home/daniel/Documents/databook_cpp/build/CMakeFiles/edit_cache.dir
+/home/daniel/Documents/databook_cpp/build/CMakeFiles/rebuild_cache.dir
+/home/daniel/Documents/databook_cpp/build/CH01/CMakeFiles/CH01_SEC02.dir
+/home/daniel/Documents/databook_cpp/build/CH01/CMakeFiles/edit_cache.dir
+/home/daniel/Documents/databook_cpp/build/CH01/CMakeFiles/rebuild_cache.dir

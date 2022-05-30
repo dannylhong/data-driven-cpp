@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o -o CH01_SEC02  -lpython3.10 

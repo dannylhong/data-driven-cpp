@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CH01",
+					"jsonFile" : "directory-CH01-Debug-2761ab4f6c97d22aa553.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CH01",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "databook_cpp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC02::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC02-Debug-06b15e72f69991a84a3e.json",
+					"name" : "CH01_SEC02",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniel/Documents/databook_cpp/build",
+		"source" : "/home/daniel/Documents/databook_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

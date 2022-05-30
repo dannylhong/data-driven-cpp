@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/daniel/Documents/databook_cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -g -o CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o -c /home/daniel/Documents/databook_cpp/CH01/CH01_SEC02.cpp",
+  "file": "/home/daniel/Documents/databook_cpp/CH01/CH01_SEC02.cpp"
+}
+]
