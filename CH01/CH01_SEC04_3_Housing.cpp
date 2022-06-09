@@ -20,24 +20,16 @@ namespace Eigen {
 int main(int argc, char** argv)
 {
     std::string path = "../../../DATA/housing.data";
-    MatrixXf H = load_data<MatrixXf>(path);
+    MatrixXd H = load_data<MatrixXd>(path);
 
-    MatrixXf b = H.block(0, H.cols() - 1, H.rows(), 1);
-    MatrixXf A = H;
-    A.block(0, H.cols() - 1, H.rows(), 1) = VectorXf::Ones(H.rows());
+    MatrixXd b = H.block(0, H.cols() - 1, H.rows(), 1);
+    MatrixXd A = H;
+    A.block(0, H.cols() - 1, H.rows(), 1) = VectorXd::Ones(H.rows());
 
-    BDCSVD<MatrixXf> svd(A, ComputeThinU | ComputeThinV);
-#if 0
-    MatrixXf S = svd.singularValues().asDiagonal();
-    MatrixXf U = svd.matrixU();
-    MatrixXf V = svd.matrixV();
-    VectorXf x = V*S.inverse()*U.transpose()*b;
-#else
-    VectorXf x = svd.solve(b);
-#endif     
-
+    BDCSVD<MatrixXd> svd(A, ComputeThinU | ComputeThinV);
+    VectorXd x = svd.solve(b);
     
-    MatrixXf btilde = A*x;
+    MatrixXd btilde = A*x;
     
     std::map<std::string, std::string> kwargs;
 
@@ -58,12 +50,12 @@ int main(int argc, char** argv)
     plt::show();
 
 
-    MatrixXf bA(A.rows(), A.cols()+1) ;
+    MatrixXd bA(A.rows(), A.cols()+1) ;
     bA.block(0, 0, A.rows(), 1) = b;
     bA.block(0, 1, A.rows(), A.cols()) = A;
 
     std::sort(bA.rowwise().begin(), bA.rowwise().end(),
-     [](auto const& r1, auto const& r2){return r1(0)<r2(0);});
+              [](auto const& r1, auto const& r2){return r1(0)<r2(0);});
 
     kwargs.erase("marker");
     kwargs.erase("markersize");
@@ -84,6 +76,36 @@ int main(int argc, char** argv)
 
     plt::show();
 
+
+    VectorXd A_mean = A.colwise().mean();
+
+    MatrixXd A2 = A - MatrixXd::Ones(A.rows(),1)*A_mean.transpose();
+
+    double A2std;
+    for (int j = 0; j < A.cols() - 1; j++){
+        A2std = std::sqrt(A2.col(j).cwiseAbs2().sum()/(A2.rows()));
+        A2.col(j) = A2.col(j)/A2std;
+    }
+    A2.block(0, A2.cols() - 1, A2.rows(), 1) = VectorXd::Ones(A2.rows());
+
+    // std::ofstream file("A2.txt");
+    // if (file.is_open())
+    // {
+    //     file << A2;
+    // }
+
+    BDCSVD<MatrixXd> svd2(A2, ComputeThinU | ComputeThinV);
+    MatrixXd S = svd2.singularValues().asDiagonal();
+    MatrixXd U = svd2.matrixU();
+    MatrixXd V = svd2.matrixV();
+    x = V*S.inverse()*U.transpose()*b;
+
+    std::cout << x; // I have no idea why the result differs from the python one. If I compare A2 matrix, maximum difference is bout 5e-6.
+
+    std::vector<double> vec(x.data(), x.data() + x.size() - 1);
+    plt::bar(vec);
+    plt::show();
+
     return 0;
 }
 
@@ -92,7 +114,7 @@ M load_data (const std::string & path) {
     std::ifstream indata;
     indata.open(path);
     std::string line;
-    std::vector<float> values;
+    std::vector<double> values;
     uint rows = 0;
     while (std::getline(indata, line)) {
         std::stringstream lineStream(line);

@@ -19,12 +19,12 @@ int main(int argc, char** argv)
 
 
     BDCSVD<MatrixXf> svd(A, ComputeThinU | ComputeThinV);
-#if 0
+#if 0 // method 1
     MatrixXf S = svd.singularValues().asDiagonal();
     MatrixXf U = svd.matrixU();
     MatrixXf V = svd.matrixV();
     VectorXf x = V*S.inverse()*U.transpose()*b;
-#else
+#else // method 2
     VectorXf x = svd.solve(b);
 #endif     
 

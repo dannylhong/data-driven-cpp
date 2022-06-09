@@ -1,6 +1,5 @@
 #include <Eigen/Dense>
 #include <matplotlibcpp.h>
-// #include <math.h>
 #include <random>
 
 namespace plt = matplotlibcpp;

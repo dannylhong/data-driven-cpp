@@ -3,6 +3,7 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/eigen.hpp>
 #include <matplotlibcpp.h>
+
 namespace plt = matplotlibcpp;
 using namespace Eigen;
 

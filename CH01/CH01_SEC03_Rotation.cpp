@@ -35,8 +35,6 @@ int main(int argc, char** argv)
     MatrixXf y = u.array().sin().matrix()*v.array().sin().matrix().transpose();
     MatrixXf z = VectorXf::Ones(u.size())*v.array().cos().matrix().transpose();
 
-
-//     plt::figure(1);
     plt::plot_surface(x,y,z, {{"cmap", "jet"}});
     plt::show();
 
@@ -55,7 +53,6 @@ int main(int argc, char** argv)
           }
     }
 
-//     plt::figure(2);
     plt::plot_surface(xR,yR,zR, {{"cmap", "jet"}});
     plt::show();
     
