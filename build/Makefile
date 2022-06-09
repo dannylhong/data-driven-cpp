@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/Documents/databook_cpp
+CMAKE_SOURCE_DIR = /home/daniel/Documents/study/databook/data-driven-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/Documents/databook_cpp/build
+CMAKE_BINARY_DIR = /home/daniel/Documents/study/databook/data-driven-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles /home/daniel/Documents/databook_cpp/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles /home/daniel/Documents/study/databook/data-driven-cpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,58 @@ CH01_SEC02/fast:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/build
 .PHONY : CH01_SEC02/fast
 
+#=============================================================================
+# Target rules for targets named CH01_SEC03_Rotation
+
+# Build rule for target.
+CH01_SEC03_Rotation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC03_Rotation
+.PHONY : CH01_SEC03_Rotation
+
+# fast build rule for target.
+CH01_SEC03_Rotation/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build
+.PHONY : CH01_SEC03_Rotation/fast
+
+#=============================================================================
+# Target rules for targets named CH01_SEC04_1_Linear
+
+# Build rule for target.
+CH01_SEC04_1_Linear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC04_1_Linear
+.PHONY : CH01_SEC04_1_Linear
+
+# fast build rule for target.
+CH01_SEC04_1_Linear/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build
+.PHONY : CH01_SEC04_1_Linear/fast
+
+#=============================================================================
+# Target rules for targets named CH01_SEC04_2_Cement
+
+# Build rule for target.
+CH01_SEC04_2_Cement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC04_2_Cement
+.PHONY : CH01_SEC04_2_Cement
+
+# fast build rule for target.
+CH01_SEC04_2_Cement/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build
+.PHONY : CH01_SEC04_2_Cement/fast
+
+#=============================================================================
+# Target rules for targets named CH01_SEC04_3_Housing
+
+# Build rule for target.
+CH01_SEC04_3_Housing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC04_3_Housing
+.PHONY : CH01_SEC04_3_Housing
+
+# fast build rule for target.
+CH01_SEC04_3_Housing/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build
+.PHONY : CH01_SEC04_3_Housing/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +190,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CH01_SEC02"
+	@echo "... CH01_SEC03_Rotation"
+	@echo "... CH01_SEC04_1_Linear"
+	@echo "... CH01_SEC04_2_Cement"
+	@echo "... CH01_SEC04_3_Housing"
 .PHONY : help
 
 

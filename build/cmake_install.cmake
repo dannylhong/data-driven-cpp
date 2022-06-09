@@ -1,4 +1,4 @@
-# Install script for directory: /home/daniel/Documents/databook_cpp
+# Install script for directory: /home/daniel/Documents/study/databook/data-driven-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/daniel/Documents/databook_cpp/build/CH01/cmake_install.cmake")
+  include("/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/daniel/Documents/databook_cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/daniel/Documents/study/databook/data-driven-cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

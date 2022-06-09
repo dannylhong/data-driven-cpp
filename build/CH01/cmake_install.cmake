@@ -1,4 +1,4 @@
-# Install script for directory: /home/daniel/Documents/databook_cpp/CH01
+# Install script for directory: /home/daniel/Documents/study/databook/data-driven-cpp/CH01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

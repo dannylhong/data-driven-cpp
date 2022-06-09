@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include
+CXX_INCLUDES = -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -g
 

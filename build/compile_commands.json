@@ -1,7 +1,27 @@
 [
 {
-  "directory": "/home/daniel/Documents/databook_cpp/build/CH01",
-  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -g -o CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o -c /home/daniel/Documents/databook_cpp/CH01/CH01_SEC02.cpp",
-  "file": "/home/daniel/Documents/databook_cpp/CH01/CH01_SEC02.cpp"
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC02.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC02.cpp"
+},
+{
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC03_Rotation.dir/CH01_SEC03_Rotation.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC03_Rotation.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC03_Rotation.cpp"
+},
+{
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC04_1_Linear.dir/CH01_SEC04_1_Linear.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_1_Linear.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_1_Linear.cpp"
+},
+{
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC04_2_Cement.dir/CH01_SEC04_2_Cement.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_2_Cement.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_2_Cement.cpp"
+},
+{
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_3_Housing.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_3_Housing.cpp"
 }
 ]

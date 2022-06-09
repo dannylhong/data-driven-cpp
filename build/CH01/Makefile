@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/Documents/databook_cpp
+CMAKE_SOURCE_DIR = /home/daniel/Documents/study/databook/data-driven-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/Documents/databook_cpp/build
+CMAKE_BINARY_DIR = /home/daniel/Documents/study/databook/data-driven-cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/daniel/Documents/databook_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles /home/daniel/Documents/databook_cpp/build/CH01//CMakeFiles/progress.marks
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles 0
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01//CMakeFiles/progress.marks
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/clean
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/preinstall
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/preinstall
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/daniel/Documents/databook_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 CH01/CMakeFiles/CH01_SEC02.dir/rule:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC02.dir/rule
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC02.dir/rule
 .PHONY : CH01/CMakeFiles/CH01_SEC02.dir/rule
 
 # Convenience name for target.
@@ -127,15 +127,71 @@ CH01_SEC02: CH01/CMakeFiles/CH01_SEC02.dir/rule
 
 # fast build rule for target.
 CH01_SEC02/fast:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/build
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/build
 .PHONY : CH01_SEC02/fast
+
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule
+
+# Convenience name for target.
+CH01_SEC03_Rotation: CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule
+.PHONY : CH01_SEC03_Rotation
+
+# fast build rule for target.
+CH01_SEC03_Rotation/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build
+.PHONY : CH01_SEC03_Rotation/fast
+
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_1_Linear: CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule
+.PHONY : CH01_SEC04_1_Linear
+
+# fast build rule for target.
+CH01_SEC04_1_Linear/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build
+.PHONY : CH01_SEC04_1_Linear/fast
+
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_2_Cement: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule
+.PHONY : CH01_SEC04_2_Cement
+
+# fast build rule for target.
+CH01_SEC04_2_Cement/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build
+.PHONY : CH01_SEC04_2_Cement/fast
+
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_3_Housing: CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule
+.PHONY : CH01_SEC04_3_Housing
+
+# fast build rule for target.
+CH01_SEC04_3_Housing/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build
+.PHONY : CH01_SEC04_3_Housing/fast
 
 CH01_SEC02.o: CH01_SEC02.cpp.o
 .PHONY : CH01_SEC02.o
 
 # target to build an object file
 CH01_SEC02.cpp.o:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o
 .PHONY : CH01_SEC02.cpp.o
 
 CH01_SEC02.i: CH01_SEC02.cpp.i
@@ -143,7 +199,7 @@ CH01_SEC02.i: CH01_SEC02.cpp.i
 
 # target to preprocess a source file
 CH01_SEC02.cpp.i:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.i
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.i
 .PHONY : CH01_SEC02.cpp.i
 
 CH01_SEC02.s: CH01_SEC02.cpp.s
@@ -151,8 +207,104 @@ CH01_SEC02.s: CH01_SEC02.cpp.s
 
 # target to generate assembly for a file
 CH01_SEC02.cpp.s:
-	cd /home/daniel/Documents/databook_cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.s
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.s
 .PHONY : CH01_SEC02.cpp.s
+
+CH01_SEC03_Rotation.o: CH01_SEC03_Rotation.cpp.o
+.PHONY : CH01_SEC03_Rotation.o
+
+# target to build an object file
+CH01_SEC03_Rotation.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/CH01_SEC03_Rotation.cpp.o
+.PHONY : CH01_SEC03_Rotation.cpp.o
+
+CH01_SEC03_Rotation.i: CH01_SEC03_Rotation.cpp.i
+.PHONY : CH01_SEC03_Rotation.i
+
+# target to preprocess a source file
+CH01_SEC03_Rotation.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/CH01_SEC03_Rotation.cpp.i
+.PHONY : CH01_SEC03_Rotation.cpp.i
+
+CH01_SEC03_Rotation.s: CH01_SEC03_Rotation.cpp.s
+.PHONY : CH01_SEC03_Rotation.s
+
+# target to generate assembly for a file
+CH01_SEC03_Rotation.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/CH01_SEC03_Rotation.cpp.s
+.PHONY : CH01_SEC03_Rotation.cpp.s
+
+CH01_SEC04_1_Linear.o: CH01_SEC04_1_Linear.cpp.o
+.PHONY : CH01_SEC04_1_Linear.o
+
+# target to build an object file
+CH01_SEC04_1_Linear.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/CH01_SEC04_1_Linear.cpp.o
+.PHONY : CH01_SEC04_1_Linear.cpp.o
+
+CH01_SEC04_1_Linear.i: CH01_SEC04_1_Linear.cpp.i
+.PHONY : CH01_SEC04_1_Linear.i
+
+# target to preprocess a source file
+CH01_SEC04_1_Linear.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/CH01_SEC04_1_Linear.cpp.i
+.PHONY : CH01_SEC04_1_Linear.cpp.i
+
+CH01_SEC04_1_Linear.s: CH01_SEC04_1_Linear.cpp.s
+.PHONY : CH01_SEC04_1_Linear.s
+
+# target to generate assembly for a file
+CH01_SEC04_1_Linear.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/CH01_SEC04_1_Linear.cpp.s
+.PHONY : CH01_SEC04_1_Linear.cpp.s
+
+CH01_SEC04_2_Cement.o: CH01_SEC04_2_Cement.cpp.o
+.PHONY : CH01_SEC04_2_Cement.o
+
+# target to build an object file
+CH01_SEC04_2_Cement.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/CH01_SEC04_2_Cement.cpp.o
+.PHONY : CH01_SEC04_2_Cement.cpp.o
+
+CH01_SEC04_2_Cement.i: CH01_SEC04_2_Cement.cpp.i
+.PHONY : CH01_SEC04_2_Cement.i
+
+# target to preprocess a source file
+CH01_SEC04_2_Cement.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/CH01_SEC04_2_Cement.cpp.i
+.PHONY : CH01_SEC04_2_Cement.cpp.i
+
+CH01_SEC04_2_Cement.s: CH01_SEC04_2_Cement.cpp.s
+.PHONY : CH01_SEC04_2_Cement.s
+
+# target to generate assembly for a file
+CH01_SEC04_2_Cement.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/CH01_SEC04_2_Cement.cpp.s
+.PHONY : CH01_SEC04_2_Cement.cpp.s
+
+CH01_SEC04_3_Housing.o: CH01_SEC04_3_Housing.cpp.o
+.PHONY : CH01_SEC04_3_Housing.o
+
+# target to build an object file
+CH01_SEC04_3_Housing.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.o
+.PHONY : CH01_SEC04_3_Housing.cpp.o
+
+CH01_SEC04_3_Housing.i: CH01_SEC04_3_Housing.cpp.i
+.PHONY : CH01_SEC04_3_Housing.i
+
+# target to preprocess a source file
+CH01_SEC04_3_Housing.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.i
+.PHONY : CH01_SEC04_3_Housing.cpp.i
+
+CH01_SEC04_3_Housing.s: CH01_SEC04_3_Housing.cpp.s
+.PHONY : CH01_SEC04_3_Housing.s
+
+# target to generate assembly for a file
+CH01_SEC04_3_Housing.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.s
+.PHONY : CH01_SEC04_3_Housing.cpp.s
 
 # Help Target
 help:
@@ -163,9 +315,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CH01_SEC02"
+	@echo "... CH01_SEC03_Rotation"
+	@echo "... CH01_SEC04_1_Linear"
+	@echo "... CH01_SEC04_2_Cement"
+	@echo "... CH01_SEC04_3_Housing"
 	@echo "... CH01_SEC02.o"
 	@echo "... CH01_SEC02.i"
 	@echo "... CH01_SEC02.s"
+	@echo "... CH01_SEC03_Rotation.o"
+	@echo "... CH01_SEC03_Rotation.i"
+	@echo "... CH01_SEC03_Rotation.s"
+	@echo "... CH01_SEC04_1_Linear.o"
+	@echo "... CH01_SEC04_1_Linear.i"
+	@echo "... CH01_SEC04_1_Linear.s"
+	@echo "... CH01_SEC04_2_Cement.o"
+	@echo "... CH01_SEC04_2_Cement.i"
+	@echo "... CH01_SEC04_2_Cement.s"
+	@echo "... CH01_SEC04_3_Housing.o"
+	@echo "... CH01_SEC04_3_Housing.i"
+	@echo "... CH01_SEC04_3_Housing.s"
 .PHONY : help
 
 
@@ -177,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/daniel/Documents/databook_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

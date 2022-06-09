@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/Documents/databook_cpp
+CMAKE_SOURCE_DIR = /home/daniel/Documents/study/databook/data-driven-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/Documents/databook_cpp/build
+CMAKE_BINARY_DIR = /home/daniel/Documents/study/databook/data-driven-cpp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -79,6 +79,10 @@ clean: CH01/clean
 
 # Recursive "all" directory target.
 CH01/all: CH01/CMakeFiles/CH01_SEC02.dir/all
+CH01/all: CH01/CMakeFiles/CH01_SEC03_Rotation.dir/all
+CH01/all: CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/all
+CH01/all: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/all
+CH01/all: CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/all
 .PHONY : CH01/all
 
 # Recursive "preinstall" directory target.
@@ -87,6 +91,10 @@ CH01/preinstall:
 
 # Recursive "clean" directory target.
 CH01/clean: CH01/CMakeFiles/CH01_SEC02.dir/clean
+CH01/clean: CH01/CMakeFiles/CH01_SEC03_Rotation.dir/clean
+CH01/clean: CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/clean
+CH01/clean: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/clean
+CH01/clean: CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/clean
 .PHONY : CH01/clean
 
 #=============================================================================
@@ -96,14 +104,14 @@ CH01/clean: CH01/CMakeFiles/CH01_SEC02.dir/clean
 CH01/CMakeFiles/CH01_SEC02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/databook_cpp/build/CMakeFiles --progress-num=1,2 "Built target CH01_SEC02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=1,2 "Built target CH01_SEC02"
 .PHONY : CH01/CMakeFiles/CH01_SEC02.dir/all
 
 # Build rule for subdir invocation for target.
 CH01/CMakeFiles/CH01_SEC02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC02.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/databook_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
 .PHONY : CH01/CMakeFiles/CH01_SEC02.dir/rule
 
 # Convenience name for target.
@@ -114,6 +122,110 @@ CH01_SEC02: CH01/CMakeFiles/CH01_SEC02.dir/rule
 CH01/CMakeFiles/CH01_SEC02.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC02.dir/build.make CH01/CMakeFiles/CH01_SEC02.dir/clean
 .PHONY : CH01/CMakeFiles/CH01_SEC02.dir/clean
+
+#=============================================================================
+# Target rules for target CH01/CMakeFiles/CH01_SEC03_Rotation.dir
+
+# All Build rule for target.
+CH01/CMakeFiles/CH01_SEC03_Rotation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=3,4 "Built target CH01_SEC03_Rotation"
+.PHONY : CH01/CMakeFiles/CH01_SEC03_Rotation.dir/all
+
+# Build rule for subdir invocation for target.
+CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC03_Rotation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
+.PHONY : CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule
+
+# Convenience name for target.
+CH01_SEC03_Rotation: CH01/CMakeFiles/CH01_SEC03_Rotation.dir/rule
+.PHONY : CH01_SEC03_Rotation
+
+# clean rule for target.
+CH01/CMakeFiles/CH01_SEC03_Rotation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC03_Rotation.dir/build.make CH01/CMakeFiles/CH01_SEC03_Rotation.dir/clean
+.PHONY : CH01/CMakeFiles/CH01_SEC03_Rotation.dir/clean
+
+#=============================================================================
+# Target rules for target CH01/CMakeFiles/CH01_SEC04_1_Linear.dir
+
+# All Build rule for target.
+CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/all:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/depend
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=5,6 "Built target CH01_SEC04_1_Linear"
+.PHONY : CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/all
+
+# Build rule for subdir invocation for target.
+CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
+.PHONY : CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_1_Linear: CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/rule
+.PHONY : CH01_SEC04_1_Linear
+
+# clean rule for target.
+CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/build.make CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/clean
+.PHONY : CH01/CMakeFiles/CH01_SEC04_1_Linear.dir/clean
+
+#=============================================================================
+# Target rules for target CH01/CMakeFiles/CH01_SEC04_2_Cement.dir
+
+# All Build rule for target.
+CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/all:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/depend
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=7,8 "Built target CH01_SEC04_2_Cement"
+.PHONY : CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/all
+
+# Build rule for subdir invocation for target.
+CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
+.PHONY : CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_2_Cement: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/rule
+.PHONY : CH01_SEC04_2_Cement
+
+# clean rule for target.
+CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/clean
+.PHONY : CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/clean
+
+#=============================================================================
+# Target rules for target CH01/CMakeFiles/CH01_SEC04_3_Housing.dir
+
+# All Build rule for target.
+CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/all:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/depend
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=9,10 "Built target CH01_SEC04_3_Housing"
+.PHONY : CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/all
+
+# Build rule for subdir invocation for target.
+CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles 0
+.PHONY : CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule
+
+# Convenience name for target.
+CH01_SEC04_3_Housing: CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/rule
+.PHONY : CH01_SEC04_3_Housing
+
+# clean rule for target.
+CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/clean
+.PHONY : CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
