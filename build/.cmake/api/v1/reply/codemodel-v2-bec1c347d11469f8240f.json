@@ -1,0 +1,121 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CH01",
+					"jsonFile" : "directory-CH01-Debug-2761ab4f6c97d22aa553.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CH01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "databook_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC02::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC02-Debug-1ade1176038ca4cccd6e.json",
+					"name" : "CH01_SEC02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC03_Rotation::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC03_Rotation-Debug-96b606bbcb720d961df8.json",
+					"name" : "CH01_SEC03_Rotation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_1_Linear::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_1_Linear-Debug-d63023b35bf861a92de0.json",
+					"name" : "CH01_SEC04_1_Linear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_2_Cement::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_2_Cement-Debug-ac4fcb9e3b6fc6b9e3de.json",
+					"name" : "CH01_SEC04_2_Cement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_3_Housing::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_3_Housing-Debug-201e00771ae2a6ac7d1b.json",
+					"name" : "CH01_SEC04_3_Housing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC05_1_PCAGaussian::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC05_1_PCAGaussian-Debug-a8193db0e80a280fa09e.json",
+					"name" : "CH01_SEC05_1_PCAGaussian",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniel/Documents/study/databook/data-driven-cpp/build",
+		"source" : "/home/daniel/Documents/study/databook/data-driven-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

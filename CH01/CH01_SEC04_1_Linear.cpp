@@ -14,7 +14,7 @@ int main(int argc, char** argv)
 
     float x = 3; // True slope
     VectorXf a = VectorXf::LinSpaced(17, -2, 2);
-    VectorXf b = x*a + VectorXf::Zero(a.rows(),a.cols()).unaryExpr([](float dummy){return n(e);});
+    VectorXf b = x*a + VectorXf::Zero(a.size()).unaryExpr([](float dummy){return n(e);});
 
     VectorXf xXa = x*a;
 

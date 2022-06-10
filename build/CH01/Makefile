@@ -186,6 +186,20 @@ CH01_SEC04_3_Housing/fast:
 	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build
 .PHONY : CH01_SEC04_3_Housing/fast
 
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/rule
+
+# Convenience name for target.
+CH01_SEC05_1_PCAGaussian: CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/rule
+.PHONY : CH01_SEC05_1_PCAGaussian
+
+# fast build rule for target.
+CH01_SEC05_1_PCAGaussian/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build
+.PHONY : CH01_SEC05_1_PCAGaussian/fast
+
 CH01_SEC02.o: CH01_SEC02.cpp.o
 .PHONY : CH01_SEC02.o
 
@@ -306,6 +320,30 @@ CH01_SEC04_3_Housing.cpp.s:
 	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.s
 .PHONY : CH01_SEC04_3_Housing.cpp.s
 
+CH01_SEC05_1_PCAGaussian.o: CH01_SEC05_1_PCAGaussian.cpp.o
+.PHONY : CH01_SEC05_1_PCAGaussian.o
+
+# target to build an object file
+CH01_SEC05_1_PCAGaussian.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/CH01_SEC05_1_PCAGaussian.cpp.o
+.PHONY : CH01_SEC05_1_PCAGaussian.cpp.o
+
+CH01_SEC05_1_PCAGaussian.i: CH01_SEC05_1_PCAGaussian.cpp.i
+.PHONY : CH01_SEC05_1_PCAGaussian.i
+
+# target to preprocess a source file
+CH01_SEC05_1_PCAGaussian.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/CH01_SEC05_1_PCAGaussian.cpp.i
+.PHONY : CH01_SEC05_1_PCAGaussian.cpp.i
+
+CH01_SEC05_1_PCAGaussian.s: CH01_SEC05_1_PCAGaussian.cpp.s
+.PHONY : CH01_SEC05_1_PCAGaussian.s
+
+# target to generate assembly for a file
+CH01_SEC05_1_PCAGaussian.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/CH01_SEC05_1_PCAGaussian.cpp.s
+.PHONY : CH01_SEC05_1_PCAGaussian.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +357,7 @@ help:
 	@echo "... CH01_SEC04_1_Linear"
 	@echo "... CH01_SEC04_2_Cement"
 	@echo "... CH01_SEC04_3_Housing"
+	@echo "... CH01_SEC05_1_PCAGaussian"
 	@echo "... CH01_SEC02.o"
 	@echo "... CH01_SEC02.i"
 	@echo "... CH01_SEC02.s"
@@ -334,6 +373,9 @@ help:
 	@echo "... CH01_SEC04_3_Housing.o"
 	@echo "... CH01_SEC04_3_Housing.i"
 	@echo "... CH01_SEC04_3_Housing.s"
+	@echo "... CH01_SEC05_1_PCAGaussian.o"
+	@echo "... CH01_SEC05_1_PCAGaussian.i"
+	@echo "... CH01_SEC05_1_PCAGaussian.s"
 .PHONY : help
 
 

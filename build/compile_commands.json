@@ -23,5 +23,10 @@
   "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
   "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC04_3_Housing.dir/CH01_SEC04_3_Housing.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_3_Housing.cpp",
   "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC04_3_Housing.cpp"
+},
+{
+  "directory": "/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01",
+  "command": "/usr/bin/g++  -I/home/daniel/Libraries/eigen3 -I/home/daniel/Libraries/matplotlib-cpp -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/CH01_SEC05_1_PCAGaussian.cpp.o -c /home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC05_1_PCAGaussian.cpp",
+  "file": "/home/daniel/Documents/study/databook/data-driven-cpp/CH01/CH01_SEC05_1_PCAGaussian.cpp"
 }
 ]

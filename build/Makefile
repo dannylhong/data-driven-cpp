@@ -181,6 +181,19 @@ CH01_SEC04_3_Housing/fast:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build.make CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/build
 .PHONY : CH01_SEC04_3_Housing/fast
 
+#=============================================================================
+# Target rules for targets named CH01_SEC05_1_PCAGaussian
+
+# Build rule for target.
+CH01_SEC05_1_PCAGaussian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC05_1_PCAGaussian
+.PHONY : CH01_SEC05_1_PCAGaussian
+
+# fast build rule for target.
+CH01_SEC05_1_PCAGaussian/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build
+.PHONY : CH01_SEC05_1_PCAGaussian/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +207,7 @@ help:
 	@echo "... CH01_SEC04_1_Linear"
 	@echo "... CH01_SEC04_2_Cement"
 	@echo "... CH01_SEC04_3_Housing"
+	@echo "... CH01_SEC05_1_PCAGaussian"
 .PHONY : help
 
 

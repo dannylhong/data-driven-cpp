@@ -3,9 +3,11 @@
 
 CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/type_traits \
+  /home/daniel/Libraries/eigen3/Eigen/Dense \
+  /home/daniel/Libraries/eigen3/Eigen/Core \
+  /home/daniel/Libraries/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /home/daniel/Libraries/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/c++/11/cmath \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -18,44 +20,13 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/time.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /home/daniel/Libraries/eigen3/Eigen/Dense \
-  /home/daniel/Libraries/eigen3/Eigen/Core \
-  /home/daniel/Libraries/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
-  /home/daniel/Libraries/eigen3/Eigen/src/Core/util/Macros.h \
-  /usr/include/c++/11/cmath \
-  /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -69,16 +40,28 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/stdlib.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -91,8 +74,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
   /usr/include/c++/11/bits/stl_pair.h \
   /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
   /usr/include/c++/11/bits/stl_iterator_base_types.h \
   /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/11/bits/concept_check.h \
@@ -101,6 +86,7 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
   /usr/include/c++/11/tr1/bessel_function.tcc \
@@ -133,6 +119,7 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -145,6 +132,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -161,6 +152,11 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
@@ -496,6 +492,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /usr/local/include/opencv4/opencv2/core/utility.hpp \
   /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/local/include/opencv4/opencv2/core/optim.hpp \
@@ -1259,6 +1259,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h:
+
+/usr/include/c++/11/cstring:
+
 /usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/c++/11/bits/std_abs.h:
@@ -1310,6 +1314,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/new:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/debug/debug.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
@@ -1443,6 +1451,12 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/time.h:
 
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/11/bits/unordered_map.h:
@@ -1479,6 +1493,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/c++/11/iomanip:
 
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
@@ -1503,6 +1521,14 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/core/matx.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
 /usr/include/python3.10/typeslots.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -1523,65 +1549,135 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/NumTraits.h:
 
-/usr/include/c++/11/exception:
+/usr/include/c++/11/backward/binders.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/Matrix.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/local/include/opencv4/opencv2/dnn/version.hpp:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/MathFunctions.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h:
+/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
-/usr/include/c++/11/cstring:
+/usr/include/locale.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h:
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h:
 
-/usr/include/c++/11/bits/node_handle.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
 /home/daniel/Libraries/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/python3.10/pythonrun.h:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/SelfAdjointView.h:
+/usr/include/c++/11/bits/concept_check.h:
 
-/usr/include/c++/11/debug/assertions.h:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/python3.10/ceval.h:
+/usr/include/c++/11/bits/locale_classes.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h:
+/usr/include/python3.10/weakrefobject.h:
 
-/usr/include/c++/11/bits/stl_uninitialized.h:
+/usr/include/c++/11/tr1/gamma.tcc:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
-/usr/include/signal.h:
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
 
-/usr/include/python3.10/cpython/pydebug.h:
+/usr/include/c++/11/ext/string_conversions.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/c++/11/bits/streambuf.tcc:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-../CH01/CH01_SEC02.cpp:
+/usr/include/python3.10/cpython/listobject.h:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
+/usr/include/features-time64.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/type_traits:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/util/Macros.h:
+
+/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
+
+/usr/include/python3.10/pymem.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/local/include/opencv4/opencv2/features2d.hpp:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -1591,47 +1687,31 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/IO.h:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/util/Macros.h:
-
-/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/type_traits:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/local/include/opencv4/opencv2/core/mat.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h:
+/usr/include/c++/11/streambuf:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/c++/11/bits/streambuf.tcc:
+/usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/limits.h:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
-/usr/include/locale.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Core/DenseBase.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -1641,133 +1721,11 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/core/cvdef.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/11/limits:
 
-/usr/include/c++/11/ctime:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/python3.10/pythonrun.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/ratio:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/cwchar:
-
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/SVD/BDCSVD.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/local/include/opencv4/opencv2/flann/saving.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/python3.10/cpython/listobject.h:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/python3.10/weakrefobject.h:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/ArithmeticSequence.h:
-
-/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/c++/11/tuple:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Geometry/Translation.h:
-
-/usr/include/c++/11/complex:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/DiagonalMatrix.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/python3.10/pymem.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
-/usr/local/include/opencv4/opencv2/features2d.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -1789,17 +1747,21 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Ref.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/usr/include/python3.10/cpython/traceback.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/home/daniel/Libraries/eigen3/Eigen/LU:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/setjmp.h:
+
+/usr/include/math.h:
 
 /usr/include/c++/11/bits/charconv.h:
 
@@ -1807,11 +1769,7 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
-/usr/include/math.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/local/include/opencv4/opencv2/highgui.hpp:
 
@@ -1821,19 +1779,23 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
-/usr/include/python3.10/cpython/traceback.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+/home/daniel/Libraries/eigen3/Eigen/src/Geometry/Translation.h:
 
-/home/daniel/Libraries/eigen3/Eigen/LU:
+../CH01/CH01_SEC02.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h:
 
-/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+/usr/include/c++/11/complex:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/DenseBase.h:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/python3.10/cpython/sysmodule.h:
 
@@ -1853,63 +1815,7 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
-/usr/include/python3.10/numpy/npy_interrupt.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/EigenBase.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/11/string_view:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/Transpose.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/ReturnByValue.h:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
-
-/usr/include/c++/11/cstdlib:
-
-/home/daniel/Libraries/eigen3/Eigen/src/plugins/ReshapedMethods.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h:
-
-/usr/include/c++/11/tr1/special_function_util.h:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/Matrix.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/MathFunctions.h:
-
-/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1931,14 +1837,6 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/Householder:
 
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/home/daniel/Libraries/eigen3/Eigen/Dense:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/AssignEvaluator.h:
@@ -1955,7 +1853,45 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/python3.10/ceval.h:
+
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/python3.10/numpy/npy_interrupt.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/EigenBase.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
+
+/usr/include/c++/11/cstdlib:
+
+/home/daniel/Libraries/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/usr/include/c++/11/string_view:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/Transpose.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -1991,6 +1927,18 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/core/persistence.hpp:
 
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/local/include/opencv4/opencv2/dnn/version.hpp:
+
 /usr/include/python3.10/numpy/arrayobject.h:
 
 /usr/include/c++/11/list:
@@ -1998,10 +1946,6 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
 
 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/home/daniel/Libraries/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h:
 
@@ -2017,19 +1961,67 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Swap.h:
 
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/Array.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
 /usr/include/c++/11/sstream:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h:
 
 /usr/include/c++/11/istream:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/home/daniel/Libraries/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h:
 
-/home/daniel/Libraries/eigen3/Eigen/src/Core/Array.h:
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/local/include/opencv4/opencv2/flann/saving.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/SVD/BDCSVD.h:
+
+/usr/include/c++/11/cwchar:
+
+/home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/daniel/Libraries/eigen3/Eigen/Dense:
+
+/usr/include/wchar.h:
+
+/usr/include/signal.h:
+
+/usr/include/python3.10/cpython/pydebug.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/home/daniel/Libraries/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/home/daniel/Libraries/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/include/c++/11/exception:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
@@ -2137,6 +2129,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/MatrixBase.h:
 
+/home/daniel/Libraries/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
 /home/daniel/Libraries/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /usr/local/include/opencv4/opencv2/core/optim.hpp:
@@ -2171,9 +2167,9 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
-/home/daniel/Libraries/eigen3/Eigen/Core:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/home/daniel/Libraries/eigen3/Eigen/Core:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
@@ -2472,6 +2468,10 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/local/include/opencv4/opencv2/core/types.hpp:
 
 /usr/local/include/opencv4/opencv2/core/utility.hpp:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/ctime:
 
 /usr/local/include/opencv4/opencv2/core/ovx.hpp:
 

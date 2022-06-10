@@ -1,8 +1,13 @@
-#include <chrono>
 #include <Eigen/Dense>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/eigen.hpp>
 #include <matplotlibcpp.h>
+
+#define TIME_CHECK 0
+
+#if TIME_CHECK
+#include <chrono>
+#endif
 
 namespace plt = matplotlibcpp;
 using namespace Eigen;
@@ -20,16 +25,19 @@ int main(int argc, char** argv)
     plt::title("original image");
     plt::show();
 
+#if TIME_CHECK
     auto start = std::chrono::high_resolution_clock::now();
+#endif
 
     BDCSVD<MatrixXf> svd(X, ComputeThinU | ComputeThinV);
 
+#if TIME_CHECK
     auto end = std::chrono::high_resolution_clock::now();
 
     std::chrono::duration<double, std::milli> float_ms = end - start;
 
     std::cout << "Elapsed time for main algorithm is " << float_ms.count() << " milliseconds" << std::endl;
-
+#endif
     MatrixXf S = svd.singularValues().asDiagonal();
     MatrixXf U = svd.matrixU();
     MatrixXf V = svd.matrixV();
@@ -57,8 +65,7 @@ int main(int argc, char** argv)
 
     VectorXf cumsum = svd.singularValues();
     for(int i=1; i<cumsum.size(); i++)
-        cumsum(i) += cumsum(i-1);
-    
+        cumsum(i) += cumsum(i-1);    
     cumsum = cumsum/svd.singularValues().sum();
 
     plt::figure();

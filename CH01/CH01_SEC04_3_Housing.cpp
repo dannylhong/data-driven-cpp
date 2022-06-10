@@ -1,7 +1,5 @@
 #include <Eigen/Dense>
 #include <matplotlibcpp.h>
-#include <math.h>
-#include <random>
 #include <fstream>
 
 namespace plt = matplotlibcpp;
@@ -10,6 +8,7 @@ using namespace Eigen;
 template<typename M>
 M load_data (const std::string & path);
 
+// For Sorting Matrix by row according to the first column elements
 namespace Eigen {
     template<class T>
     void swap(T&& a, T&& b){
@@ -22,9 +21,9 @@ int main(int argc, char** argv)
     std::string path = "../../../DATA/housing.data";
     MatrixXd H = load_data<MatrixXd>(path);
 
-    MatrixXd b = H.block(0, H.cols() - 1, H.rows(), 1);
+    MatrixXd b = H.col(H.cols() - 1);
     MatrixXd A = H;
-    A.block(0, H.cols() - 1, H.rows(), 1) = VectorXd::Ones(H.rows());
+    A.col(H.cols() - 1) = VectorXd::Ones(H.rows());
 
     BDCSVD<MatrixXd> svd(A, ComputeThinU | ComputeThinV);
     VectorXd x = svd.solve(b);
@@ -51,7 +50,7 @@ int main(int argc, char** argv)
 
 
     MatrixXd bA(A.rows(), A.cols()+1) ;
-    bA.block(0, 0, A.rows(), 1) = b;
+    bA.col(0) = b;
     bA.block(0, 1, A.rows(), A.cols()) = A;
 
     std::sort(bA.rowwise().begin(), bA.rowwise().end(),
@@ -62,7 +61,7 @@ int main(int argc, char** argv)
     kwargs["color"] = "k";
     kwargs["linewidth"] = "2";
     kwargs["label"] = "Housing Value";
-    plt::plot(bA.block(0, 0, A.rows(), 1), kwargs);
+    plt::plot(bA.col(0), kwargs);
 
     btilde = bA.block(0, 1, A.rows(), A.cols())*x;
     kwargs["color"] = "r";
@@ -86,7 +85,7 @@ int main(int argc, char** argv)
         A2std = std::sqrt(A2.col(j).cwiseAbs2().sum()/(A2.rows()));
         A2.col(j) = A2.col(j)/A2std;
     }
-    A2.block(0, A2.cols() - 1, A2.rows(), 1) = VectorXd::Ones(A2.rows());
+    A2.col(A2.cols() - 1) = VectorXd::Ones(A2.rows());
 
     // std::ofstream file("A2.txt");
     // if (file.is_open())
@@ -100,7 +99,7 @@ int main(int argc, char** argv)
     MatrixXd V = svd2.matrixV();
     x = V*S.inverse()*U.transpose()*b;
 
-    std::cout << x; // I have no idea why the result differs from the python one. If I compare A2 matrix, maximum difference is bout 5e-6.
+    std::cout << x; // I have no idea why the result differs from the python one. If I compare A2 matrix, maximum difference is about 5e-6.
 
     std::vector<double> vec(x.data(), x.data() + x.size() - 1);
     plt::bar(vec);

@@ -1,9 +1,5 @@
-#include <chrono>
 #include <Eigen/Dense>
-#include <opencv2/opencv.hpp>
-#include <opencv2/core/eigen.hpp>
 #include <matplotlibcpp.h>
-#include <math.h>
 
 namespace plt = matplotlibcpp;
 using namespace Eigen;
@@ -15,17 +11,17 @@ int main(int argc, char** argv)
 
     // Rotation about x axis
     Matrix3f Rx, Ry, Rz;
-    Rx << 1,             0,              0,
-          0, cos(theta[0]), -sin(theta[0]),
-          0, sin(theta[0]),  cos(theta[0]);
+    Rx << 1,                  0,                   0,
+          0, std::cos(theta[0]), -std::sin(theta[0]),
+          0, std::sin(theta[0]),  std::cos(theta[0]);
 
-    Ry <<  cos(theta[1]), 0, sin(theta[1]),
-                       0, 1,             0,
-          -sin(theta[1]), 0, cos(theta[1]);
+    Ry <<  std::cos(theta[1]), 0, std::sin(theta[1]),
+                            0, 1,                  0,
+          -std::sin(theta[1]), 0, std::cos(theta[1]);
 
-    Rz << cos(theta[2]), -sin(theta[2]), 0,
-          sin(theta[2]),  cos(theta[2]), 0,
-                      0,              0, 1;
+    Rz << std::cos(theta[2]), -std::sin(theta[2]), 0,
+          std::sin(theta[2]),  std::cos(theta[2]), 0,
+                           0,                   0, 1;
 
     Matrix3f X = Rz*Ry*Rx*Sigma;
 
