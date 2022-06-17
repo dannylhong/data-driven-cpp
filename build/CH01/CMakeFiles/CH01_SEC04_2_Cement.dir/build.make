@@ -93,11 +93,13 @@ CH01_SEC04_2_Cement_EXTERNAL_OBJECTS =
 CH01/CH01_SEC04_2_Cement: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/CH01_SEC04_2_Cement.cpp.o
 CH01/CH01_SEC04_2_Cement: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/build.make
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_highgui.so.4.5.5
+CH01/CH01_SEC04_2_Cement: /home/daniel/Libraries/vcpkg/installed/x64-linux/debug/lib/libmatplot.a
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_videoio.so.4.5.5
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_imgcodecs.so.4.5.5
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_imgproc.so.4.5.5
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_core.so.4.5.5
 CH01/CH01_SEC04_2_Cement: /usr/local/lib/libopencv_cudev.so.4.5.5
+CH01/CH01_SEC04_2_Cement: /home/daniel/Libraries/vcpkg/installed/x64-linux/debug/lib/libnodesoup.a
 CH01/CH01_SEC04_2_Cement: CH01/CMakeFiles/CH01_SEC04_2_Cement.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Documents/study/databook/data-driven-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CH01_SEC04_2_Cement"
 	cd /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CH01_SEC04_2_Cement.dir/link.txt --verbose=$(VERBOSE)

@@ -864,8 +864,98 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/matplot.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/common.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/concepts.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/handle_types.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/type_traits.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/geodata.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_interface.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_registry.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/gnuplot.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_type.h \
+  /usr/include/c++/11/optional \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/colors.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/keywords.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axis_type.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/legend.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/line_spec.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/error_bar.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/line.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_object.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_type.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/popen.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/function_line.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/histogram.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/bars.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/box_chart.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/circles.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/contours.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/contourc.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/filled_area.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/labels.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/matrix.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/network.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/parallel_lines.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/stair.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/string_function.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/surface.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/vectors.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_functions.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_lim.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/histcounts.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/plot.h \
+  /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_registry.h
 
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/vectors.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/surface.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/network.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/labels.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/filled_area.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/box_chart.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_type.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_object.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/line.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/error_bar.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/line_spec.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/legend.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axis_type.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/colors.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_registry.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_interface.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/geodata.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/handle_types.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/common.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
@@ -880,6 +970,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/concepts.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
@@ -925,6 +1017,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/python3.10/import.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/keywords.h:
+
 /usr/include/python3.10/intrcheck.h:
 
 /usr/include/python3.10/cpython/pylifecycle.h:
@@ -961,6 +1055,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/python3.10/traceback.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_type.h:
+
 /usr/include/python3.10/cpython/code.h:
 
 /usr/include/python3.10/code.h:
@@ -984,6 +1080,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/python3.10/floatobject.h:
 
 /usr/include/python3.10/boolobject.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/popen.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
@@ -1012,6 +1110,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/asm-generic/posix_types.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_registry.h:
 
 /usr/include/linux/posix_types.h:
 
@@ -1078,6 +1178,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/contourc.h:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h:
 
@@ -1175,6 +1277,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/bars.h:
+
 /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
 
 /usr/local/include/opencv4/opencv2/video/background_segm.hpp:
@@ -1196,6 +1300,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/string_function.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
@@ -1285,6 +1391,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/local/include/opencv4/opencv2/flann/all_indices.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/histogram.h:
+
 /usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/stdint.h:
@@ -1345,6 +1453,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/c++/11/cwctype:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/gnuplot.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -1381,7 +1491,11 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_lim.h:
+
 /home/daniel/Libraries/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/plot.h:
 
 /usr/include/wctype.h:
 
@@ -1500,6 +1614,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_functions.h:
 
 /usr/include/c++/11/clocale:
 
@@ -1693,6 +1809,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/contours.h:
+
 /usr/include/c++/11/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
@@ -1716,6 +1834,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/histcounts.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
@@ -1783,6 +1903,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Geometry/Translation.h:
 
+/usr/include/c++/11/fstream:
+
 ../CH01/CH01_SEC02.cpp:
 
 /home/daniel/Libraries/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h:
@@ -1844,6 +1966,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Replicate.h:
 
 /usr/include/alloca.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/function_line.h:
 
 /usr/include/c++/11/bits/specfun.h:
 
@@ -1907,6 +2031,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/matrix.h:
+
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/python3.10/pyerrors.h:
@@ -1914,6 +2040,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/local/include/opencv4/opencv2/core/traits.hpp:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/type_traits.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Cholesky/LDLT.h:
 
@@ -2049,6 +2177,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/circles.h:
+
 /home/daniel/Libraries/eigen3/Eigen/src/Core/util/Memory.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Geometry/EulerAngles.h:
@@ -2064,6 +2194,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Stride.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/matplot.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -2201,6 +2333,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/IndexedView.h:
 
+/usr/include/c++/11/optional:
+
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Reshaped.h:
@@ -2216,6 +2350,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /home/daniel/Libraries/eigen3/Eigen/src/Geometry/Homogeneous.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Redux.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/stair.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/Visitor.h:
 
@@ -2266,6 +2402,8 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: ../CH01/CH01_SEC02.cpp \
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
+/home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/parallel_lines.h:
 
 /home/daniel/Libraries/eigen3/Eigen/src/Core/SolveTriangular.h:
 

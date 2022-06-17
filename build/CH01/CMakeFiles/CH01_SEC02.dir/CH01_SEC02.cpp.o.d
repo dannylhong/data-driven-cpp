@@ -775,4 +775,50 @@ CH01/CMakeFiles/CH01_SEC02.dir/CH01_SEC02.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/signal_ext.h
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/matplot.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/common.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/concepts.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/handle_types.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/type_traits.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/geodata.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_interface.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/backend_registry.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/backend/gnuplot.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_type.h \
+ /usr/include/c++/11/optional \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/colors.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/keywords.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axis_type.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/legend.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/line_spec.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/error_bar.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/line.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/axes_object.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_type.h \
+ /usr/include/c++/11/fstream \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/popen.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/function_line.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/histogram.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/bars.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/box_chart.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/circles.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/contours.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/util/contourc.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/filled_area.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/labels.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/matrix.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/network.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/parallel_lines.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/stair.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/string_function.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/surface.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/axes_objects/vectors.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_functions.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/axes_lim.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/histcounts.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/freestanding/plot.h \
+ /home/daniel/Libraries/vcpkg/installed/x64-linux/include/matplot/core/figure_registry.h

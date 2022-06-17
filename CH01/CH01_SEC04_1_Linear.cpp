@@ -1,62 +1,55 @@
 #include <Eigen/Dense>
-#include <matplotlibcpp.h>
+#include <matplot/matplot.h>
 #include <random>
 
-namespace plt = matplotlibcpp;
 using namespace Eigen;
-
 
 int main(int argc, char** argv)
 {
     static std::default_random_engine e(time(0));
     // static std::default_random_engine e(0);  // fix rnadom seed
-    static std::normal_distribution <float> n(0,1);
+    static std::normal_distribution <double> n(0,1);
 
-    float x = 3; // True slope
-    VectorXf a = VectorXf::LinSpaced(17, -2, 2);
-    VectorXf b = x*a + VectorXf::Zero(a.size()).unaryExpr([](float dummy){return n(e);});
+    double x = 3; // True slope
+    VectorXd a = VectorXd::LinSpaced(17, -2, 2);
+    VectorXd b = x*a + VectorXd::Zero(a.size()).unaryExpr([](double dummy){return n(e);});
 
-    VectorXf xXa = x*a;
+    VectorXd xXa = x*a;
 
-    std::map<std::string, std::string> kwargs;
-
-    kwargs["color"] = "k";
-    kwargs["linewidth"] = "2";
-    kwargs["label"] = "True line";
-    plt::plot(a, xXa, kwargs);
+    matplot::figure();
+    auto ax1 = matplot::gca();
+    ax1->hold(matplot::on);
+    ax1->plot(a, xXa, "k")->line_width(2)
+                           .display_name("True Line");
     
-    kwargs.erase("linewidth");
-    kwargs["color"] = "r";
-    kwargs["markersize"] = "10";
-    kwargs["label"] = "Noisy data";
-    plt::plot(a, b, "x", kwargs);
-    
-    BDCSVD<MatrixXf> svd(a.matrix(), ComputeThinU | ComputeThinV);    
+    std::vector<double> A(a.size()), B(b.size());
+    VectorXd::Map(A.data(), a.size()) = a;
+    VectorXd::Map(B.data(), b.size()) = b;
+    ax1->plot(a, b, "rx")->marker_size(10)
+                          .display_name("Noisy Data");
+
+    BDCSVD<MatrixXd> svd(a.matrix(), ComputeThinU | ComputeThinV);    
 #if 0
-    MatrixXf S = svd.singularValues().asDiagonal();
-    MatrixXf U = svd.matrixU();
-    MatrixXf V = svd.matrixV();
-    VectorXf xtilde = V*S.inverse()*U.transpose()*b;
+    MatrixXd S = svd.singularValues().asDiagonal();
+    MatrixXd U = svd.matrixU();
+    MatrixXd V = svd.matrixV();
+    VectorXd xtilde = V*S.inverse()*U.transpose()*b;
 #else
-    VectorXf xtilde = svd.solve(b);
+    VectorXd xtilde = svd.solve(b);
 #endif     
     
-    VectorXf xtildeXa = xtilde(0)*a;
+    VectorXd xtildeXa = xtilde(0)*a;
     std::cout << "x      = " << x << std::endl;
     std::cout << "xtilde = " << xtilde << std::endl;
 
-    kwargs.erase("marker");
-    kwargs.erase("markersize");
-    kwargs["color"] = "b";
-    kwargs["linewidth"] = "4";
-    kwargs["label"] = "Regression line";
-    plt::plot(a, xtildeXa, "--", kwargs);
+    ax1->plot(a, xtildeXa, "b--")->line_width(4)
+                                  .display_name("Regression Line");
+    ax1->xlabel("a");
+    ax1->ylabel("b");
+    ax1->grid(true);
+    ax1->grid_line_style(matplot::line_spec("k--"));
+    matplot::legend()->location(matplot::legend::general_alignment::topleft);
+    matplot::show();
 
-    plt::xlabel("a");
-    plt::ylabel("b");
-    plt::grid();
-    plt::legend();
-    plt::show();
-    
     return 0;
 }

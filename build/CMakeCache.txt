@@ -353,6 +353,24 @@ CUDA_nvToolsExt_LIBRARY:FILEPATH=/usr/local/cuda-11.6/lib64/libnvToolsExt.so
 //Path to a library.
 CUDA_rt_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.a
 
+//TRUE if we have the C++ filesystem headers
+CXX_FILESYSTEM_HAVE_FS:BOOL=TRUE
+
+//The header that should be included to obtain the filesystem APIs
+CXX_FILESYSTEM_HEADER:STRING=filesystem
+
+//TRUE if the C++ filesystem library is the experimental version
+CXX_FILESYSTEM_IS_EXPERIMENTAL:BOOL=FALSE
+
+//The C++ namespace that contains the filesystem APIs
+CXX_FILESYSTEM_NAMESPACE:STRING=std::filesystem
+
+//TRUE if we can run a program using std::filesystem
+Filesystem_FOUND:BOOL=TRUE
+
+//The directory containing a CMake configuration file for Matplot++.
+Matplot++_DIR:PATH=/home/daniel/Libraries/vcpkg/installed/x64-linux/share/matplot++
+
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
@@ -612,10 +630,20 @@ CUDA_nvToolsExt_LIBRARY-ADVANCED:INTERNAL=1
 CUDA_parse_cubin:INTERNAL=/usr/share/cmake-3.22/Modules/FindCUDA/parse_cubin.cmake
 //Location of run_nvcc.cmake
 CUDA_run_nvcc:INTERNAL=/usr/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+//Test CXX_FILESYSTEM_NO_LINK_NEEDED
+CXX_FILESYSTEM_NO_LINK_NEEDED:INTERNAL=1
+//Result of TRY_COMPILE
+CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED:INTERNAL=TRUE
+//Result of TRY_RUN
+CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE:INTERNAL=0
 //Details about finding CUDA
 FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda-11.6][/usr/local/cuda-11.6/bin/nvcc][/usr/local/cuda-11.6/include][/usr/local/cuda-11.6/lib64/libcudart_static.a][v11.6(11.6)]
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][cfound components: core imgproc highgui ][v4.5.5()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: _CXX_FILESYSTEM_HAVE_HEADER
+_CXX_FILESYSTEM_HAVE_HEADER-ADVANCED:INTERNAL=1
+//Have include filesystem
+_CXX_FILESYSTEM_HAVE_HEADER:INTERNAL=1
 

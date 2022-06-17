@@ -77,6 +77,11 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "codecvt": "cpp",
+        "regex": "cpp",
+        "core": "cpp",
+        "geometry": "cpp",
+        "qtalignedmalloc": "cpp"
     }
 }

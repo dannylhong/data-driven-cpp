@@ -194,6 +194,19 @@ CH01_SEC05_1_PCAGaussian/fast:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build.make CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/build
 .PHONY : CH01_SEC05_1_PCAGaussian/fast
 
+#=============================================================================
+# Target rules for targets named CH01_SEC05_2_OvarianCancer
+
+# Build rule for target.
+CH01_SEC05_2_OvarianCancer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC05_2_OvarianCancer
+.PHONY : CH01_SEC05_2_OvarianCancer
+
+# fast build rule for target.
+CH01_SEC05_2_OvarianCancer/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build.make CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build
+.PHONY : CH01_SEC05_2_OvarianCancer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,6 +221,7 @@ help:
 	@echo "... CH01_SEC04_2_Cement"
 	@echo "... CH01_SEC04_3_Housing"
 	@echo "... CH01_SEC05_1_PCAGaussian"
+	@echo "... CH01_SEC05_2_OvarianCancer"
 .PHONY : help
 
 

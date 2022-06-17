@@ -1,0 +1,130 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "CH01",
+					"jsonFile" : "directory-CH01-Debug-2761ab4f6c97d22aa553.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CH01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "databook_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC02::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC02-Debug-f1cd35a816c83f77e154.json",
+					"name" : "CH01_SEC02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC03_Rotation::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC03_Rotation-Debug-06e3b525158b68bdcc24.json",
+					"name" : "CH01_SEC03_Rotation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_1_Linear::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_1_Linear-Debug-e2f07ea7f147cd683db3.json",
+					"name" : "CH01_SEC04_1_Linear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_2_Cement::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_2_Cement-Debug-899b2b70481819265d4d.json",
+					"name" : "CH01_SEC04_2_Cement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC04_3_Housing::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC04_3_Housing-Debug-bedc9df4de4e2af2af27.json",
+					"name" : "CH01_SEC04_3_Housing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC05_1_PCAGaussian::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC05_1_PCAGaussian-Debug-bd8264aa14e9f55a17df.json",
+					"name" : "CH01_SEC05_1_PCAGaussian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC05_2_OvarianCancer::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC05_2_OvarianCancer-Debug-49795a89ed380212a8d4.json",
+					"name" : "CH01_SEC05_2_OvarianCancer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniel/Documents/study/databook/data-driven-cpp/build",
+		"source" : "/home/daniel/Documents/study/databook/data-driven-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
