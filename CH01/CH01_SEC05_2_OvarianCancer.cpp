@@ -26,9 +26,6 @@ int main(int argc, char** argv)
     ax1->semilogy(svd.singularValues(), "ko-")->marker_face(true);
     ax1->ylim({0.5, 1e3});
     ax1->ytickformat("%.0e");
-        
-    // plt::semilogy(svd.singularValues());
-    // plt::show();
 
     VectorXf cumsum = svd.singularValues();
     for(int i=1; i<cumsum.size(); i++)
@@ -37,11 +34,25 @@ int main(int argc, char** argv)
     
     auto ax2 = matplot::subplot(1,2,1);
     ax2->plot(cumsum, "ko-")->marker_face(true);
-    ax2->ylim({0.5, 1.1});
+    ax2->ylim({0.5, 1.01});
     matplot::show();
 
-    // plt::plot(cumsum);
-    // plt::show();
+    matplot::figure();
+    auto ax3 = matplot::gca();
+    ax3->hold(true);
+    float x, y, z;
+    for(int i=0; i<obs.rows(); i++)
+    {
+        x = V.transpose().row(0) * obs.transpose().col(i);
+        y = V.transpose().row(1) * obs.transpose().col(i);
+        z = V.transpose().row(2) * obs.transpose().col(i);
+        if( grp[i] == "Cancer")
+            ax3->scatter3({x}, {y}, {-z}, "rx")->marker_face(true);
+        else
+            ax3->scatter3({x}, {y}, {-z}, "b0")->marker_face(true);
+    }
+    ax3->view(115, 20);
+    matplot::show();
 
     return 0;
 }
