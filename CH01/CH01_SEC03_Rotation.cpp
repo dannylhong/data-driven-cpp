@@ -1,6 +1,9 @@
 #include <Eigen/Dense>
 #include <matplot/matplot.h>
 
+#include <matplotlibcpp.h>
+
+namespace plt = matplotlibcpp;
 using namespace Eigen;
 
 int main(int argc, char** argv)

@@ -1,5 +1,4 @@
 #include <Eigen/Dense>
-#include <Eigen/Dense>
 #include <matplot/matplot.h>
 #include <fstream>
 
@@ -40,6 +39,10 @@ int main(int argc, char** argv)
     matplot::figure();
     auto ax3 = matplot::gca();
     ax3->hold(true);
+    ax3->view(115, 20);
+    ax3->xlim({-80,-15});
+    ax3->ylim({-22, 11});
+    ax3->zlim({-12, 8});
     float x, y, z;
     for(int i=0; i<obs.rows(); i++)
     {
@@ -51,7 +54,6 @@ int main(int argc, char** argv)
         else
             ax3->scatter3({x}, {y}, {-z}, "b0")->marker_face(true);
     }
-    ax3->view(115, 20);
     matplot::show();
 
     return 0;

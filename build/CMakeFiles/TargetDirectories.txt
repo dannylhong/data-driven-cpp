@@ -7,5 +7,7 @@
 /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/CH01_SEC04_3_Housing.dir
 /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir
 /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir
+/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/CH01_SEC06_1.dir
+/home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/CH01_SEC06_2_3_4.dir
 /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/edit_cache.dir
 /home/daniel/Documents/study/databook/data-driven-cpp/build/CH01/CMakeFiles/rebuild_cache.dir

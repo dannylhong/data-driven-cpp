@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "CH01",
-					"jsonFile" : "directory-CH01-Debug-2761ab4f6c97d22aa553.json",
+					"jsonFile" : "directory-CH01-Release-2761ab4f6c97d22aa553.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -36,11 +36,13 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -58,7 +60,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -67,50 +71,64 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC02::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC02-Debug-f1cd35a816c83f77e154.json",
+					"jsonFile" : "target-CH01_SEC02-Release-2994dca7e08a07f28f76.json",
 					"name" : "CH01_SEC02",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC03_Rotation::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC03_Rotation-Debug-06e3b525158b68bdcc24.json",
+					"jsonFile" : "target-CH01_SEC03_Rotation-Release-7f8905b2f049336241f2.json",
 					"name" : "CH01_SEC03_Rotation",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC04_1_Linear::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC04_1_Linear-Debug-e2f07ea7f147cd683db3.json",
+					"jsonFile" : "target-CH01_SEC04_1_Linear-Release-7e1cf998fe64dc206786.json",
 					"name" : "CH01_SEC04_1_Linear",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC04_2_Cement::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC04_2_Cement-Debug-899b2b70481819265d4d.json",
+					"jsonFile" : "target-CH01_SEC04_2_Cement-Release-280feef2d2d866be7ad0.json",
 					"name" : "CH01_SEC04_2_Cement",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC04_3_Housing::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC04_3_Housing-Debug-bedc9df4de4e2af2af27.json",
+					"jsonFile" : "target-CH01_SEC04_3_Housing-Release-f32b3d21aa38458675c0.json",
 					"name" : "CH01_SEC04_3_Housing",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC05_1_PCAGaussian::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC05_1_PCAGaussian-Debug-bd8264aa14e9f55a17df.json",
+					"jsonFile" : "target-CH01_SEC05_1_PCAGaussian-Release-77b8e42b582f334e5bfd.json",
 					"name" : "CH01_SEC05_1_PCAGaussian",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "CH01_SEC05_2_OvarianCancer::@011d290a337cd0c14e8f",
-					"jsonFile" : "target-CH01_SEC05_2_OvarianCancer-Debug-49795a89ed380212a8d4.json",
+					"jsonFile" : "target-CH01_SEC05_2_OvarianCancer-Release-a35b2c2acc616a80f84c.json",
 					"name" : "CH01_SEC05_2_OvarianCancer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC06_1::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC06_1-Release-8321c13746e71fcab8e6.json",
+					"name" : "CH01_SEC06_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CH01_SEC06_2_3_4::@011d290a337cd0c14e8f",
+					"jsonFile" : "target-CH01_SEC06_2_3_4-Release-5bf44a61c87fcba9c897.json",
+					"name" : "CH01_SEC06_2_3_4",
 					"projectIndex" : 0
 				}
 			]

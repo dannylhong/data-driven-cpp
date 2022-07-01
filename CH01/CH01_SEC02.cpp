@@ -13,8 +13,8 @@
 namespace plt = matplotlibcpp;
 using namespace Eigen;
 
-typedef Matrix<uchar, -1, -1> MatrixXc;
-typedef Matrix<uchar, -1, 1> VectorXc;
+// typedef Matrix<uchar, -1, -1> MatrixXc;
+// typedef Matrix<uchar, -1, 1> VectorXc;
 
 int main(int argc, char** argv)
 {
@@ -56,7 +56,7 @@ int main(int argc, char** argv)
 
     std::chrono::duration<double, std::milli> float_ms = end - start;
 
-    std::cout << "Elapsed time for main algorithm is " << float_ms.count() << " milliseconds" << std::endl;
+    std::cout << "Elapsed time for SVD is " << float_ms.count() << " milliseconds" << std::endl;
 #endif
     MatrixXd S = svd.singularValues().asDiagonal();
     MatrixXd U = svd.matrixU();

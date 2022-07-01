@@ -207,6 +207,32 @@ CH01_SEC05_2_OvarianCancer/fast:
 	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build.make CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build
 .PHONY : CH01_SEC05_2_OvarianCancer/fast
 
+#=============================================================================
+# Target rules for targets named CH01_SEC06_1
+
+# Build rule for target.
+CH01_SEC06_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC06_1
+.PHONY : CH01_SEC06_1
+
+# fast build rule for target.
+CH01_SEC06_1/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_1.dir/build.make CH01/CMakeFiles/CH01_SEC06_1.dir/build
+.PHONY : CH01_SEC06_1/fast
+
+#=============================================================================
+# Target rules for targets named CH01_SEC06_2_3_4
+
+# Build rule for target.
+CH01_SEC06_2_3_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01_SEC06_2_3_4
+.PHONY : CH01_SEC06_2_3_4
+
+# fast build rule for target.
+CH01_SEC06_2_3_4/fast:
+	$(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build.make CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build
+.PHONY : CH01_SEC06_2_3_4/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +248,8 @@ help:
 	@echo "... CH01_SEC04_3_Housing"
 	@echo "... CH01_SEC05_1_PCAGaussian"
 	@echo "... CH01_SEC05_2_OvarianCancer"
+	@echo "... CH01_SEC06_1"
+	@echo "... CH01_SEC06_2_3_4"
 .PHONY : help
 
 

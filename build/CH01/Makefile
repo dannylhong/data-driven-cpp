@@ -214,6 +214,34 @@ CH01_SEC05_2_OvarianCancer/fast:
 	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build.make CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build
 .PHONY : CH01_SEC05_2_OvarianCancer/fast
 
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC06_1.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC06_1.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC06_1.dir/rule
+
+# Convenience name for target.
+CH01_SEC06_1: CH01/CMakeFiles/CH01_SEC06_1.dir/rule
+.PHONY : CH01_SEC06_1
+
+# fast build rule for target.
+CH01_SEC06_1/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_1.dir/build.make CH01/CMakeFiles/CH01_SEC06_1.dir/build
+.PHONY : CH01_SEC06_1/fast
+
+# Convenience name for target.
+CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/rule:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/rule
+.PHONY : CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/rule
+
+# Convenience name for target.
+CH01_SEC06_2_3_4: CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/rule
+.PHONY : CH01_SEC06_2_3_4
+
+# fast build rule for target.
+CH01_SEC06_2_3_4/fast:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build.make CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build
+.PHONY : CH01_SEC06_2_3_4/fast
+
 CH01_SEC02.o: CH01_SEC02.cpp.o
 .PHONY : CH01_SEC02.o
 
@@ -382,6 +410,54 @@ CH01_SEC05_2_OvarianCancer.cpp.s:
 	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/build.make CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/CH01_SEC05_2_OvarianCancer.cpp.s
 .PHONY : CH01_SEC05_2_OvarianCancer.cpp.s
 
+CH01_SEC06_1.o: CH01_SEC06_1.cpp.o
+.PHONY : CH01_SEC06_1.o
+
+# target to build an object file
+CH01_SEC06_1.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_1.dir/build.make CH01/CMakeFiles/CH01_SEC06_1.dir/CH01_SEC06_1.cpp.o
+.PHONY : CH01_SEC06_1.cpp.o
+
+CH01_SEC06_1.i: CH01_SEC06_1.cpp.i
+.PHONY : CH01_SEC06_1.i
+
+# target to preprocess a source file
+CH01_SEC06_1.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_1.dir/build.make CH01/CMakeFiles/CH01_SEC06_1.dir/CH01_SEC06_1.cpp.i
+.PHONY : CH01_SEC06_1.cpp.i
+
+CH01_SEC06_1.s: CH01_SEC06_1.cpp.s
+.PHONY : CH01_SEC06_1.s
+
+# target to generate assembly for a file
+CH01_SEC06_1.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_1.dir/build.make CH01/CMakeFiles/CH01_SEC06_1.dir/CH01_SEC06_1.cpp.s
+.PHONY : CH01_SEC06_1.cpp.s
+
+CH01_SEC06_2_3_4.o: CH01_SEC06_2_3_4.cpp.o
+.PHONY : CH01_SEC06_2_3_4.o
+
+# target to build an object file
+CH01_SEC06_2_3_4.cpp.o:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build.make CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/CH01_SEC06_2_3_4.cpp.o
+.PHONY : CH01_SEC06_2_3_4.cpp.o
+
+CH01_SEC06_2_3_4.i: CH01_SEC06_2_3_4.cpp.i
+.PHONY : CH01_SEC06_2_3_4.i
+
+# target to preprocess a source file
+CH01_SEC06_2_3_4.cpp.i:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build.make CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/CH01_SEC06_2_3_4.cpp.i
+.PHONY : CH01_SEC06_2_3_4.cpp.i
+
+CH01_SEC06_2_3_4.s: CH01_SEC06_2_3_4.cpp.s
+.PHONY : CH01_SEC06_2_3_4.s
+
+# target to generate assembly for a file
+CH01_SEC06_2_3_4.cpp.s:
+	cd /home/daniel/Documents/study/databook/data-driven-cpp/build && $(MAKE) $(MAKESILENT) -f CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/build.make CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/CH01_SEC06_2_3_4.cpp.s
+.PHONY : CH01_SEC06_2_3_4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,6 +473,8 @@ help:
 	@echo "... CH01_SEC04_3_Housing"
 	@echo "... CH01_SEC05_1_PCAGaussian"
 	@echo "... CH01_SEC05_2_OvarianCancer"
+	@echo "... CH01_SEC06_1"
+	@echo "... CH01_SEC06_2_3_4"
 	@echo "... CH01_SEC02.o"
 	@echo "... CH01_SEC02.i"
 	@echo "... CH01_SEC02.s"
@@ -418,6 +496,12 @@ help:
 	@echo "... CH01_SEC05_2_OvarianCancer.o"
 	@echo "... CH01_SEC05_2_OvarianCancer.i"
 	@echo "... CH01_SEC05_2_OvarianCancer.s"
+	@echo "... CH01_SEC06_1.o"
+	@echo "... CH01_SEC06_1.i"
+	@echo "... CH01_SEC06_1.s"
+	@echo "... CH01_SEC06_2_3_4.o"
+	@echo "... CH01_SEC06_2_3_4.i"
+	@echo "... CH01_SEC06_2_3_4.s"
 .PHONY : help
 
 

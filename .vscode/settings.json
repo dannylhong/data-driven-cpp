@@ -82,6 +82,9 @@
         "regex": "cpp",
         "core": "cpp",
         "geometry": "cpp",
-        "qtalignedmalloc": "cpp"
+        "qtalignedmalloc": "cpp",
+        "*.tpp": "cpp",
+        "*.expression": "cpp",
+        "dense": "cpp"
     }
 }

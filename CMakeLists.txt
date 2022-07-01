@@ -9,6 +9,7 @@ include_directories(/home/daniel/Libraries/matplotlib-cpp/)
 include_directories(/usr/include/python3.10)
 include_directories(/usr/lib/python3/dist-packages/numpy/core/include)
 find_package(Matplot++ REQUIRED HINTS "/home/daniel/Libraries/vcpkg/installed/x64-linux")
+find_package(matioCpp REQUIRED)
 
 message(STATUS "CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 

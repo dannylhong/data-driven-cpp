@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -2014,6 +2014,18 @@
 			"value" : "0"
 		},
 		{
+			"name" : "Eigen3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Eigen3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/share/eigen3/cmake"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_CUDA",
 			"properties" : 
 			[
@@ -2024,6 +2036,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/local/cuda-11.6][/usr/local/cuda-11.6/bin/nvcc][/usr/local/cuda-11.6/include][/usr/local/cuda-11.6/lib64/libcudart_static.a][v11.6(11.6)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_MATIO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding MATIO"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/include][/usr/lib/x86_64-linux-gnu/libmatio.so][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
@@ -2060,6 +2084,50 @@
 			],
 			"type" : "BOOL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "MATIO_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "MATIO_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libmatio.so"
+		},
+		{
+			"name" : "MATIO_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Folder contains MatIO"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
 		},
 		{
 			"name" : "Matplot++_DIR",
@@ -2136,6 +2204,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/daniel/Documents/study/databook/data-driven-cpp"
+		},
+		{
+			"name" : "matioCpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for matioCpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/daniel/Libraries/matio-cpp/build"
+		},
+		{
+			"name" : "visit_struct_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for visit_struct."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local/lib/cmake/visit_struct"
 		}
 	],
 	"kind" : "cache",

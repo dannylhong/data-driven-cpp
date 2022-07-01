@@ -12,6 +12,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "/home/daniel/Libraries/matio-cpp/build/matioCppConfig.cmake"
+  "/home/daniel/Libraries/matio-cpp/build/matioCppConfigVersion.cmake"
+  "/home/daniel/Libraries/matio-cpp/build/matioCppTargets.cmake"
+  "/home/daniel/Libraries/matio-cpp/build/share/matioCpp/cmake/FindMATIO.cmake"
   "/home/daniel/Libraries/vcpkg/installed/x64-linux/share/matplot++/FindFilesystem.cmake"
   "/home/daniel/Libraries/vcpkg/installed/x64-linux/share/matplot++/Matplot++Targets-debug.cmake"
   "/home/daniel/Libraries/vcpkg/installed/x64-linux/share/matplot++/Matplot++Targets-release.cmake"
@@ -21,6 +25,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVModules.cmake"
+  "/usr/local/lib/cmake/visit_struct/visit_structConfig.cmake"
+  "/usr/local/lib/cmake/visit_struct/visit_structConfigVersion.cmake"
+  "/usr/local/lib/cmake/visit_struct/visit_structTargets.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
@@ -52,6 +59,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/eigen3/cmake/Eigen3Config.cmake"
+  "/usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/usr/share/eigen3/cmake/Eigen3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -75,4 +85,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CH01/CMakeFiles/CH01_SEC04_3_Housing.dir/DependInfo.cmake"
   "CH01/CMakeFiles/CH01_SEC05_1_PCAGaussian.dir/DependInfo.cmake"
   "CH01/CMakeFiles/CH01_SEC05_2_OvarianCancer.dir/DependInfo.cmake"
+  "CH01/CMakeFiles/CH01_SEC06_1.dir/DependInfo.cmake"
+  "CH01/CMakeFiles/CH01_SEC06_2_3_4.dir/DependInfo.cmake"
   )
